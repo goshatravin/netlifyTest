@@ -5,28 +5,28 @@ backend:
 media_folder: "static/uploads"
 public_folder: "uploads"
 
-  collections: [
-    {
-      name: 'pages',
-      label: 'Pages',
-      files: [
-        {
-          label: 'index',
-          name: 'index',
-          file: 'content/pages/index.md',
-          fields: [
-            {
-              label: 'Hero Title',
-              name: 'hero_title',
-              widget: 'string',
-            },
-            # {
-            #   label: 'Hero Description',
-            #   name: 'hero_description',
-            #   widget: 'markdown',
-            # },
-          ],
-        },
-      ],
-    },
-  ],
+collections: [
+  {
+    name: 'pages',
+    label: 'Pages',
+    files: [
+      {
+        label: 'index',
+        name: 'index',
+        file: 'content/pages/index.md',
+        fields: [
+          {
+            label: 'Hero Title',
+            name: 'hero_title',
+            widget: 'string',
+          },
+          # {
+          #   label: 'Hero Description',
+          #   name: 'hero_description',
+          #   widget: 'markdown',
+          # },
+        ],
+      },
+    ],
+  },
+],
